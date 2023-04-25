@@ -20,7 +20,7 @@ git clone https://github.com/pedroigorsf/poo-console-school.git
 
 Execute o comando para instalar as dependências.
 ```
-npm install
+npm install --save-dev @types/node
 ```
 
 Execute o comando para iniciar o sistema.
