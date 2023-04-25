@@ -18,7 +18,7 @@ class Aluno {
   }
 
   calcularMedia(): number {
-    const media = (this.nota1 + this.nota2) / 2;
+    let media = (this.nota1 + this.nota2) / 2;
     return media;
   }
 }
@@ -106,7 +106,7 @@ function verificarMatricula() {
   }
 
 function menu() {
-    rl.question("\nO que deseja fazer?\n1 - Matricular aluno \n2 - Adicionar notas \n3 - Visualizar notas \n-----------------\n4 - Alunos aprovados \n5 - Alunos em recuperação \n6 - Alunos reprovados \n7 - Sair\n\nDigite apenas uma das opções acima:  ", function(opcao) {
+    rl.question("\n┍──━──━──━──┙◆┕──━──━──━──┑\n|   𝗢 𝗾𝘂𝗲 𝗱𝗲𝘀𝗲𝗷𝗮 𝗳𝗮𝘇𝗲𝗿?   |\n|-------------------------|\n| 1 - Matricular aluno    |\n| 2 - Adicionar notas     |\n| 3 - Visualizar notas    |\n| 4 - Alunos aprovados    |\n| 5 - Alunos em recuperaç.|\n| 6 - Alunos reprovados   |\n| 7 - Sair                |\n┕──━──━──━──┑◆┍──━──━──━──┙\n\n➜ Digite apenas uma das opções acima:  ", function(opcao) {
       switch (opcao) {
         case "1":
           matricularAluno();
