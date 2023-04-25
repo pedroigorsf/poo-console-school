@@ -25,7 +25,7 @@ npm install --save-dev @types/node
 
 Execute o comando para iniciar o sistema.
 ```
-node index.ts
+node index.js
 ```
 
 
